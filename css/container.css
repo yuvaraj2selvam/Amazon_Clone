@@ -1,0 +1,19 @@
+.main{
+	margin-top: 60px;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
+.main-image{
+    width: 200px;
+    height:100%;
+}
+
+.image-container{
+
+}
