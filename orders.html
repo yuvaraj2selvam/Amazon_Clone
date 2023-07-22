@@ -1,9 +1,80 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>foobar</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Amazon</title>
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/orders.css" />
 	</head>
 	<body>
-		<div>foobar</div>
+		<div class="head-section">
+			<div class="head-left">
+				<a href="index.html"
+					><img
+						class="head-image"
+						src="images/logo/amazon-logo-white.png"
+				/></a>
+			</div>
+			<div class="head-mid">
+				<input type="text" class="search-bar" placeholder="Search" />
+				<button class="search-btn">
+					<img
+						class="search-icon"
+						src="images/icons/search-icon.png"
+						alt=""
+					/>
+				</button>
+			</div>
+			<div class="head-right">
+				<a class="links-order" href="orders.html">
+					<span class="return-text">Return</span>
+					<span class="order-text"> & Orders</span>
+				</a>
+				<a class="links-cart" href="cart.html">
+					<img src="images/icons/cart-icon.png" class="head-cart" />
+					<div class="cart-text">cart</div>
+					<div class="cart-items">0</div>
+				</a>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="out-container">
+				<div class="main-name">Your orders</div>
+				<div class="container">
+					<div class="top-container">
+						<div class="order-placed">
+							<p class="orderq">Order Placed:</p>
+							<div class="ordera">July 22</div>
+						</div>
+						<div class="order-total">
+							<p class="orderq">Total:</p>
+							<div class="ordera">$8.79</div>
+						</div>
+						<div class="order-id">
+							<p class="orderq">Order ID:</p>
+							<div class="ordera">
+								4c5fcdd3-cfa9-822d-fb5f-d8a34246e2f8
+							</div>
+						</div>
+					</div>
+					<div class="down-container">
+						<div class="order-image">
+							<img class="order-img" src="dump/order1.jpg">
+						</div>
+						<div class="product-details">
+							<p class="oname">Adults Plain Cotton T-Shirt - 2 Pack</p>
+							<p class="oarraving">Arriving on: August <h1></h1></p>
+							<p class="quantity">Quantity: 1</p>
+							<button class="buygain">Buy it again</button>
+						</div>
+						<div class="trackbt">
+							<button class="trackbtn">Track package</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
